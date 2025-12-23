@@ -1,0 +1,186 @@
+{
+    "home": {
+        "hero": {
+            "title": "DAA Business Associates",
+            "subtitle": "A Group company started as a manufacturer of medical disposable products in the late eighties. Formed in 1993, we have many successful projects under our belt.",
+            "buttons": [
+                {
+                    "text": "Meet Our Team",
+                    "link": "/about",
+                    "type": "primary"
+                },
+                {
+                    "text": "Contact Us",
+                    "link": "/contact",
+                    "type": "outline"
+                }
+            ]
+        }
+    },
+    "about": {
+        "leadership": {
+            "title": "Leadership and Team",
+            "description": [
+                "Our principals have almost 100 years combined experience in healthcare, medical devices, consumer electronics, IT and telecom. Their careers span medical practice, general management, sourcing, procurement, logistics, sales & marketing, product management, product innovation, business development and R&D.",
+                "Our founders have held senior executive roles at Harvard International (formerly alba plc), Flextronics, Philips Electronics, and M. Shah & Co."
+            ],
+            "members": [
+                {
+                    "name": "Dr. Sunil Anand",
+                    "image": "/media/anand.jpg",
+                    "bio": [
+                        "Dr. Anand received schooling at one of India's elite boarding schools (affiliated with Cambridge University) in Nainital. He then pursued medical education and graduated with top honors from the Armed Forces Medical College in Pune, one of India's top medical colleges, where he received both MBBS as well MD Medicine degrees. He then left to train and work in the UK. He received a Diploma in Anesthesia from the Royal College of Surgeons, UK, and trained in Intensive Care Medicine at Walsgrave Hospital, Coventry, and District General Hospital in Birmingham.",
+                        "Dr. Anand is a well-regarded faculty in ventilation techniques at medical associations like the Indian Society of Critical Care Medicine (ISCCM). He was Governor for India for the American Association of Respiratory Care (AARC) for 8 years. He also served on an Advisory Board for setting up curricula for medical technology training at Symbiosis University, Pune. He is on the teaching faculty at the same institution and has authored a chapter on legislation in the manufacture of medical equipment in India for their distance-learning program.",
+                        "Dr. Anand has been retained as a Clinical Tutor for companies like Respironics, Medin and Sechrist. He trains throughout South and South East Asia to introduce the concept of Non Invasive Ventilation and Neonatal CPAP."
+                    ]
+                },
+                {
+                    "name": "Sadanand Ambadkar",
+                    "image": "/media/sadanand.jpg",
+                    "bio": [
+                        "Mr. Ambadkar obtained his Bachelor of Engineering degree in Bio Medical Engineering from Jawaharlal Nehru Engineering College, Aurangabad in Maharashtra state. He has almost 30 years experience in the healthcare industry.",
+                        "Mr. Ambadkar started his career with M. Shah & Company, Baroda, as a Product Development Engineer. He designed and developed microprocessor controlled medical equipment for ophthalmic surgery (an import substitution product) as well as for operation of large steam sterilizers and operation tables. Mr. Ambadkar then moved to sales & marketing for the same firm, before venturing out independently as an entrepreneur.",
+                        "Mr. Ambadkar then joined Pulmocare Consultants as a Partner and was responsible for marketing and sales. His innovative strategies and dealer development skills are responsible for Pulmocare Consultants excellent reputation in the market for ICU equipment.",
+                        "Mr. Ambadkar was a regular faculty at workshops organized by Indian Society of Critical Care Medicine and taught ventilation techniques to clinicians. He also served on the steering committee of the medical college at Symbiosis University, Pune.",
+                        "Mr. Ambadkar has been involved in advising Indian government agencies in their aid-efforts in Africa and in reviewing healthcare public-private-partnership project proposals in the state of Goa.",
+                        "Presently Mr. Ambadkar is a lead advisor to several upcoming hospital projects. His responsibilities include complete planning and co-ordination of the various agencies in setting up of tertiary care hospitals."
+                    ]
+                },
+                {
+                    "name": "Aninda DasGupta",
+                    "image": "/media/aninda.jpg",
+                    "bio": [
+                        "Aninda DasGupta has almost 30 years experience in a variety of roles in Consumer Electronics, Medical Devices, IT and Telecom industries. He has held senior executive roles in General Management, Marketing, Sales, Product Management, Sourcing and Supply Chain, Technology Development, and Corporate Strategy. Aninda has an MBA from Kellogg School of Management and Hong Kong University of Science and Technology. He has worked and lived in India, USA, W. Europe and Far East Asia.",
+                        "Aninda is also Founder & Managing Director at IndoSino Group, a provider of global services in sales and marketing, sourcing and business strategy to firms of all sizes. IndoSino specializes in innovative products and new markets.",
+                        "Prior to founding IndoSino, Aninda was Managing Director at Harvard International Plc (formerly Alba Plc), a UK-based multinational maker of consumer electronics, medical devices, fitness equipment and giftware. Before Harvard, Aninda was Vice President and General Manager in charge of the Consumer Electronics Division at Flextronics, the contract manufacturing giant. He was responsible for worldwide delivery of design, manufacturing and logistics services to tier-1 brands and retailers. Before joining Flextronics, Aninda was at Royal Philips Electronics in a variety of roles spanning R&D, technical marketing, product strategy and management, product innovation, marketing planning and general management. He played a leading role in early standardization of HL7 (hospital information systems) and DICOM (medical image communication). He launched Philip's first consumer online service and led development of interactive-TV standards in North America.",
+                        "Aninda has several international patents.",
+                        "Further details are available at http://www.linkedin.com/in/anindadasgupta"
+                    ]
+                }
+            ]
+        },
+        "offices": "We have offices in New Delhi, from where we cover North and East India, and Baroda (Vadodara) in Gujarat, from where we cover West and South India.",
+        "affiliates": {
+            "title": "Affiliates",
+            "items": [
+                "Indosino group provides services in marketing and sales, sourcing and business strategy in consumer electronics, medical devices, IT and telecom industries.",
+                "Fuelfor provides healthcare innovation consultancy out of Spain and is our European affiliate",
+                "M3d advisors provides healthcare consultancy services focused on the Indian market"
+            ]
+        },
+        "faq": {
+            "title": "FAQ",
+            "items": [
+                {
+                    "q": "How do you provide nationwide device distribution footprint?",
+                    "a": "Being Updated"
+                },
+                {
+                    "q": "Where is DAA Business Associates based and where does it operate?",
+                    "a": "Being Updated"
+                },
+                {
+                    "q": "How are you compensated in hospital design consultancy services?",
+                    "a": "Being Updated"
+                },
+                {
+                    "q": "What sets DAA Business Associates apart from other service providers?",
+                    "a": "Being Updated"
+                }
+            ]
+        },
+        "history": {
+            "title": "History",
+            "content": "A group company started as a manufacturer of medical disposable products in the late eighties. Pulmocare Consultants was formed in 1993 and has many successful projects under its belt. We changed Pulmocare's registered company name to DAA Business Associates."
+        }
+    },
+    "achievements": {
+        "title": "Achievements",
+        "sections": [
+            {
+                "title": "Medical Devices, Components and Raw Materials",
+                "items": [
+                    "Introduced nebulizers in India in 1989 with <b>Medic Aid</b>.",
+                    "Brought <b>Spirometrics Inc.</b> of USA to India in 1992.",
+                    "Pioneered home-healthcare & home ventilation in 1993 with <b>LifeCare Inc.</b> of USA.",
+                    "Introduced <b>Respironics</b> to India in 1994 and represented them for over 12 years. Respironics was later acquired by Philips.",
+                    "Gained over 80% of the non-invasive ventilation market.",
+                    "Introduced Polysomnography and Sleep Medicine in India in 1995 with <b>Vitalog</b>, USA.",
+                    "Grew <b>GE's</b> non-invasive ventilation and sleep products business by over 50%.",
+                    "Introduced <b>Sechrist's</b> HBO therapy business in India. Sechrist is now #1 in India.",
+                    "Grew <b>Newport Medical</b> of USA from Western region to a nationwide footprint.",
+                    "Brought <b>Medin</b> of Germany to India.",
+                    "Helped in design and manufacture of several of <b>Medin's</b> neonatal products.",
+                    "Helped set up <b>Novarad</b> of USA; launched their PACS & RIS (IT product) sales in India.",
+                    "Assisting <b>medical cable Tec GmbH</b>, Germany to enter Indian market (B2B) for supply of components for Orthopedic Implants, Pacing Wires, etc.",
+                    "Helping <b>EZM Edelstahlzieherei Mark GmbH</b>, Germany capture Indian market space (B2B) for supply of raw materials to manufacture Orthopedic Implants."
+                ]
+            },
+            {
+                "title": "Track Record in Hospital Design",
+                "items": [
+                    "Represent Univ. of California San Diego seeking Indian joint venture in medical education and care delivery; selected and signed MOU with the Indian Institute of Technology at Kharagpur.",
+                    "Led modernization and refurbishment of 140 year old Clara Swain Hospital in Bareilly, UP, Asia's first woman and child care hospital.",
+                    "Principal consultants for the Salya Medical Institute, Bharuch, Gujarat.",
+                    "Green-field project for world class diagnostic center & hospital",
+                    "Led design & equipment consultancy for Sundaram Medical Foundation, Chennai, Tamil Nadu, for modernization of its Critical Care Department",
+                    "Provided equipment consultancy for Global Hospital, Baroda, Gujarat",
+                    "Reviewed designs and proposals for upgrade of healthcare systems in Goa",
+                    "Led Design Consultancy for KK Childs Trust Hospital, Chennai, Tamil Nadu, for modernization of its Pediatric Critical Care Department",
+                    "Led Design Consultancy for Shree Narayan Eye Hospital, Tajpura, for modernization of its Surgical Complex.",
+                    "Principal Consultants for Tertiary Care Multi Specialty Hospital at Kapurai, Baroda, Gujarat."
+                ]
+            },
+            {
+                "title": "Association",
+                "items": [
+                    "Faculty at Indian Society of Critical Care Medicine",
+                    "Advisory board member, faculty Symbiosis University",
+                    "Trainings at American Association of Respiratory Care & American College of Chest Physicians",
+                    "Advisor on Africa-aid programs sponsored by Government of India"
+                ]
+            }
+        ]
+    },
+    "thoughts": {
+        "title": "Articles and White Papers",
+        "intro": "Our leadership team has written several articles, white papers and given presentations at industry fora. below is a partial list of recent articles. please contact us at info@daabiz.in to receive a complimentary copy of these documents.",
+        "items": [
+            "Our blog is on WordPress. you can follow our views on latest market developments and projects we are engaged in via our blog",
+            "\"How to design and construct a hospital within budget and on time\" This paper provides an outline to steps needed to ensure your hospital project completes on time and within budget.",
+            "\"Reducing waste in the blood products supply chain in India\" In this paper we discuss one way to make the blood products supply chain more efficient in India."
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "sections": [
+            {
+                "title": "Established Hospital Projects",
+                "subtitle": "Hospitals Looking for Capital",
+                "intro": "We have several hospitals that are looking for buyers, or investors who will put up the capital for modernization or formation of chains via M&A with other hospitals:",
+                "items": [
+                    "Hospital \"A\". Located in the center of New Delhi, this 200 bed hospital is profitable and under a successful management team. They are now looking for additional capital to modernize, expand and do M&A to form a chain. Contact us for more details."
+                ]
+            },
+            {
+                "title": "Greenfield Hospital Projects",
+                "intro": "We have the following greenfield hospital projects looking for investors or buyers.",
+                "items": [
+                    "A 500K sq. ft. piece of land with permit to construct a 200-bed hospital on up to 300K sq. ft. parcel. The remaining 200K sq. ft. is zoned for commercial or residential development. Contact us for more details."
+                ]
+            },
+            {
+                "title": "Construction and Renovation",
+                "intro": "Here are some hospitals we are currently helping to construct or modernize:",
+                "items": [
+                    "<strong>Clara swain hospital</strong> in Bareilly, UP, is over 140 years old. We are lead consultants in its modernization efforts. We are principal project managers, design consultants, equipment planner, etc.",
+                    "<strong>Salya medical center</strong> in Bharuch, Gujarat, is a modern diagnostic center funded by a UK-based investor. we were the principal consultants in its design, equipment procurement, bid review, etc.",
+                    "<strong>Kapurai Hospital</strong> in Baroda, Gujarat, is an upcoming multi-specialty hospital. we were the principal consultants in its design, equipment procurement, bid review, etc.",
+                    "<strong>Sundaram Medical</strong>Foundation, Chennai, redesigning Adult Critical Care Department.",
+                    "<strong>KK Childs Trust Hospital</strong> Chennai, redesigning of Pediatric Critical Care Department.",
+                    "<strong>Shree Narayan Hospital</strong> Tajpura, Gujarat, redesigning of Surgical Department."
+                ]
+            }
+        ]
+    }
+}
