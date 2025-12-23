@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daabiz.in/sitemap.xml

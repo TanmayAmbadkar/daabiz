@@ -1,10 +1,10 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import content from '../data/content.json';
 
 const TeamMember = ({ name, image, bio, delay, expanded, onToggle, isDesktop }) => {
     return (
-        <motion.div
+        <m.div
             className={`team-card ${expanded ? 'expanded' : ''}`}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -14,13 +14,13 @@ const TeamMember = ({ name, image, bio, delay, expanded, onToggle, isDesktop }) 
             style={{ cursor: isDesktop ? 'default' : 'pointer' }}
         >
             <div className="team-header">
-                <img src={image} alt={name} className="team-avatar" />
+                <img src={image} alt={name} className="team-avatar" loading="lazy" />
                 <h3>{name}</h3>
                 <div className="team-toggle">
                     <i className={`fas fa-chevron-down ${expanded ? 'rotate' : ''}`}></i>
                 </div>
             </div>
-            <motion.div
+            <m.div
                 className="team-body"
                 initial={false}
                 animate={{
@@ -34,8 +34,8 @@ const TeamMember = ({ name, image, bio, delay, expanded, onToggle, isDesktop }) 
                 {bio.map((paragraph, idx) => (
                     <p key={idx} className="team-bio">{paragraph}</p>
                 ))}
-            </motion.div>
-        </motion.div>
+            </m.div>
+        </m.div>
     );
 };
 

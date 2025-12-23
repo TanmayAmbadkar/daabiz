@@ -159,6 +159,8 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;
 }
 
 .section-title {
@@ -321,6 +323,27 @@ ul {
   position: relative;
   z-index: 1;
   max-width: 900px;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid var(--accent-light);
+  border-bottom-color: var(--accent);
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotation 1s linear infinite;
+  margin: 2rem auto;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .hero-content h1 {

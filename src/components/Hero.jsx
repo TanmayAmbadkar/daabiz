@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { Link } from 'react-scroll';
 import content from '../data/content.json';
 
@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <section id="home" className="hero">
             <div className="container hero-content">
-                <motion.div
+                <m.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
@@ -31,7 +31,7 @@ const Hero = () => {
                             </Link>
                         ))}
                     </div>
-                </motion.div>
+                </m.div>
             </div>
         </section>
     );
