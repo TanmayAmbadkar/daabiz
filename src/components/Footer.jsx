@@ -19,7 +19,6 @@ const Footer = () => {
                             <li><Link to="home" smooth={true} duration={500} style={{ cursor: 'pointer' }}>Home</Link></li>
                             <li><Link to="about" smooth={true} duration={500} style={{ cursor: 'pointer' }}>About Us</Link></li>
                             <li><Link to="achievements" smooth={true} duration={500} style={{ cursor: 'pointer' }}>Achievements</Link></li>
-                            <li><Link to="thoughts" smooth={true} duration={500} style={{ cursor: 'pointer' }}>Thoughts</Link></li>
                             <li><Link to="projects" smooth={true} duration={500} style={{ cursor: 'pointer' }}>Projects</Link></li>
                         </ul>
                     </div>

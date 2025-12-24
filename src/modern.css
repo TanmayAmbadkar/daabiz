@@ -138,6 +138,29 @@ a {
   transition: all 0.2s ease;
 }
 
+/* Content Links */
+p a,
+span a,
+.card-base a,
+.achievement-text a,
+.project-text a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+p a:hover,
+span a:hover,
+.card-base a:hover,
+.achievement-text a:hover,
+.project-text a:hover {
+  color: var(--accent-hover);
+  text-decoration-thickness: 2px;
+}
+
 ul {
   list-style: none;
 }

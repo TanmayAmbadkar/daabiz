@@ -32,7 +32,7 @@ const TeamMember = ({ name, image, bio, delay, expanded, onToggle, isDesktop }) 
                 style={{ overflow: 'hidden' }}
             >
                 {bio.map((paragraph, idx) => (
-                    <p key={idx} className="team-bio">{paragraph}</p>
+                    <p key={idx} className="team-bio" dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                 ))}
             </m.div>
         </m.div>
@@ -66,7 +66,7 @@ const About = () => {
                     <h2 className="section-title">{leadership.title}</h2>
                     <div className="section-subtitle">
                         {leadership.description.map((desc, idx) => (
-                            <p key={idx} style={{ marginBottom: '1rem' }}>{desc}</p>
+                            <p key={idx} style={{ marginBottom: '1rem' }} dangerouslySetInnerHTML={{ __html: desc }}></p>
                         ))}
                     </div>
 
@@ -95,7 +95,7 @@ const About = () => {
                     <div className="services-grid">
                         {affiliates.items.map((item, idx) => (
                             <div key={idx} className="card-base">
-                                <p style={{ fontSize: '1.1rem', color: '#475569' }}>{item}</p>
+                                <p style={{ fontSize: '1.1rem', color: '#475569' }} dangerouslySetInnerHTML={{ __html: item }}></p>
                             </div>
                         ))}
                     </div>
