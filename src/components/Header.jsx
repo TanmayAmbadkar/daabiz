@@ -56,11 +56,6 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link activeClass="active" to="thoughts" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" onClick={closeMenu}>
-                            Thoughts
-                        </Link>
-                    </li>
-                    <li>
                         <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" onClick={closeMenu}>
                             Projects
                         </Link>

@@ -40,7 +40,7 @@ const TeamMember = ({ name, image, bio, delay, expanded, onToggle, isDesktop }) 
 };
 
 const About = () => {
-    const { leadership, offices, affiliates, faq, history } = content.about;
+    const { leadership, offices, affiliates, history } = content.about;
     const [expandedMember, setExpandedMember] = React.useState(null);
     const [isDesktop, setIsDesktop] = React.useState(window.innerWidth > 968);
 
@@ -96,20 +96,6 @@ const About = () => {
                         {affiliates.items.map((item, idx) => (
                             <div key={idx} className="card-base">
                                 <p style={{ fontSize: '1.1rem', color: '#475569' }}>{item}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            <section className="section">
-                <div className="container">
-                    <h2 className="section-title">{faq.title}</h2>
-                    <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-                        {faq.items.map((item, idx) => (
-                            <div key={idx} className="card-base" style={{ marginBottom: '1.5rem', padding: '2rem' }}>
-                                <h4 style={{ marginBottom: '0.5rem', color: '#334155' }}>{item.q}</h4>
-                                <p style={{ color: '#64748b' }}>{item.a}</p>
                             </div>
                         ))}
                     </div>

@@ -7,7 +7,6 @@ import './modern.css';
 // Lazy load non-critical sections
 const About = lazy(() => import('./components/About'));
 const Achievements = lazy(() => import('./components/Achievements'));
-const Thoughts = lazy(() => import('./components/Thoughts'));
 const Projects = lazy(() => import('./components/Projects'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
@@ -33,7 +32,6 @@ function App() {
                 <Suspense fallback={<SectionLoader />}>
                     <About />
                     <Achievements />
-                    <Thoughts />
                     <Projects />
                     <Contact />
                     <Footer />
